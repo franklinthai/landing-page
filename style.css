@@ -1,8 +1,43 @@
 body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
 
+img {
+  width: 100px;
+  height: 100px;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+.header {
+  font-size: 24px;
+  color:#F9FAF8;
+  display: flex;
+}
+
+.header,.awesome,.footer {
+  background-color: #1f2937;
+}
+
+.footer {
+  text-align: center;
+  color: #F9FAF8;
+}
+.portrait {
+  width: 100px;
 }
 
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
   }
+
