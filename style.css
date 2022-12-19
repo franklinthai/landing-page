@@ -4,15 +4,25 @@ body {
   font-family: Roboto;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+.signup {
+  background-color: #3882F6;
 }
+
+.space {
+  display: flex;
+  justify-content: space-around;
+}
+
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+}
+
+.signup {
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
 
@@ -22,18 +32,46 @@ img {
   display: flex;
 }
 
-.header,.awesome,.footer {
-  background-color: #1f2937;
-}
-
 .footer {
   text-align: center;
   color: #F9FAF8;
 }
-.portrait {
-  width: 100px;
+
+.header,.awesome,.footer {
+  background-color: #1f2937;
 }
 
+.awesome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 48px;
+  color: #E5E7EB;;
+  display: inline-block;
+}
+
+.randominfo {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.portrait {
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  text-align: center;
+}
+
+.action {
+  background-color: #3882F6;
+  width: 80%;
+  align-self: center;
+}
 
 a {
     text-decoration: none;
